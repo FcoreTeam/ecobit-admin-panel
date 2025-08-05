@@ -1,0 +1,35 @@
+.stages {
+    display: flex;
+    margin-top: 60px;
+
+    .stage {
+        font-size: 28px;
+        color: #737373;
+        font-family: "Montserrat";
+        display: flex;
+        align-items: center;
+
+        &.active {
+            color: #fff;
+        }
+
+
+        .line {
+            width: 176px;
+            height: 1px;
+            background: #737373;
+            margin-left: 10px;
+            margin-right: 10px;
+
+            &.active__line {
+                background: linear-gradient(90deg, #FFFFFF 0%, #737373 100%);
+            }
+
+            &.full__line {
+                background: #fff;
+            }
+        }
+    }
+
+
+}
