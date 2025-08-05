@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
     domains: ["31.172.66.97", "http://31.172.66.97/"],
     unoptimized: true,
   },
-  distDir: "dist",
+  distDir: "build",
 };
 
 export default nextConfig;
